@@ -221,3 +221,167 @@ img {
     color: var(--gridtext);
     box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
 }
+
+/* Article > hobbyNdSoftSkills */
+
+.hobbyNdSoftSkills .grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 50px;
+    padding: 0px 20px;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.hobbyNdSoftSkills .grid .box {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--bggrey);
+    padding: 0px 20px;
+    height: 101px;
+    font-size: 1.6rem;
+    font-family: f2;
+    border-radius: 10px;
+    color: var(--gridtext);
+    background-color: var(--gridbox);
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+}
+.hobbyNdSoftSkills .grid .box .fa {
+    font-size: 2rem;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.hobbyNdSoftSkills .grid .box:hover .fa {
+    font-size: 3rem;
+    opacity: 1;
+    padding-right: 20px;
+}
+.hobbyNdSoftSkills .grid .box:hover {
+    background-color: var(--pink);
+    color: var(--gridbox);
+}
+
+/* Article > gallery */
+
+.gallery h4 {
+    font-size: 2.2rem;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    margin: 60px 80px 0px 80px;
+}
+
+.gallery > :nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.gallery .grid .box {
+    transition: all 0.2s ease-in;
+}
+
+.gallery .grid .box:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+/* Footer > foot */
+
+.foot {
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: var(--bgblack);
+    padding: 120px 35px;
+}
+.foot .icons {
+    width: 33.33%;
+    text-align: center;
+}
+
+.foot a {
+    text-decoration: none;
+}
+
+.foot .icons i {
+    color: white;
+    border: 2px solid var(--pink);
+    border-radius: 40px;
+    padding: 12px;
+    margin: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.foot .icons i:hover {
+    transform: translateY(-10px) scale(1.2);
+    color: var(--pink);
+}
+
+.foot .text {
+    width: 33.33%;
+    font-size: 2.5rem;
+    font-family: f1;
+    margin: 0px;
+    letter-spacing: 0.1rem;
+}
+
+.foot .mail {
+    width: 33%;
+    text-align: center;
+}
+
+.foot .mail a {
+    font-family: f2;
+    color: white;
+    background-color: var(--bgblack);
+    border: 2px solid var(--pink);
+    padding: 17px 34px;
+    letter-spacing: 0.02rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.foot .mail a:hover {
+    background-color: var(--pink);
+    font-size: 1.2rem;
+    padding: 16px 26px;
+}
+
+/* Footer > call */
+
+.call .font {
+    text-align: center;
+    padding: 40px 30px;
+    background-color: #161616;
+    color: white;
+    font-size: 1.5rem;
+    font-family: f1;
+    letter-spacing: 0.1rem;
+}
+.call .fa {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+/* Footer > end */
+
+.end {
+    background-color: black;
+    color: white;
+    font-family: f1;
+    padding: 30px;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.04rem;
+}
+
+.end span {
+    font-size: 1.2rem;
+    font-family: f3;
+    padding-left: 10px;
+}

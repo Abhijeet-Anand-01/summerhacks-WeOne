@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijeet Anand</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/styleAbhijeet.css">
     <link rel="icon" href="/assets/favicons/icon1.jpg">
 </head>
@@ -14,26 +15,33 @@
 
     <header>
         <nav>
-            <h1>Portfolio.</h1>
+            <h1>Resume.</h1>
             <ul>
-                <li>
+                <li onclick="document.getElementById('aboutMe').scrollIntoView({behavior: 'smooth', block: 'start'})"
+                    class="navname">
                     <a>About Me</a>
                 </li>
-                <li>
+                <li onclick="document.getElementById('hobbies').scrollIntoView({behavior: 'smooth', block: 'start'})"
+                    class="navname">
                     <a>Hobbies & Interest</a>
                 </li>
-                <li>
+                <li onclick="document.getElementById('softSkills').scrollIntoView({behavior: 'smooth', block: 'start'})"
+                    class="navname">
                     <a>Soft Skills</a>
                 </li>
-                <li>
+                <li onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth', block: 'start'})"
+                    class="navname">
                     <a>My Art Gallery</a>
                 </li>
-                <li>
+                <li onclick="document.getElementById('contactMe').scrollIntoView({behavior: 'smooth', block: 'start'})"
+                    class="navname">
                     <a>Contact Me</a>
                 </li>
             </ul>
         </nav>
     </header>
+
+
     <!-- Article > mainContainer -->
 
     <article>
@@ -91,6 +99,173 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- Article > hobbyNdSoftSkills -->
+
+
+        <section class="hobbyNdSoftSkills" id="hobbies">
+            <div class="topcontent">
+                <div class="divider">__</div>
+                <h2>Hobbies & Interests</h2>
+                <h4>Thing I Love...</h4>
+                <div class="grid">
+                    <div class="box">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <a>Computing</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                        <a>Photography</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        <a>Photo Editing</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i><a>Designing</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-gamepad" aria-hidden="true"></i>
+                        <a>Video Games</a>
+                    </div>
+                    <div class="box"><i class="fa fa-plane" aria-hidden="true"></i>
+                        <a>Travelling</a>
+                    </div>
+                    <div class="box"><i class="fa fa-music" aria-hidden="true"></i>
+                        <a>Listening Music</a>
+                    </div>
+                    <div class="box"><i class="fa fa-hourglass-start" aria-hidden="true"></i>
+                        <a>Playing Chess</a>
+                    </div>
+                    <div class="box"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                        <a>Solving puzzles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbyNdSoftSkills" id="softSkills">
+            <div class="topcontent">
+                <div class="divider">__</div>
+                <h2>Soft Skills</h2>
+                <h4>My Personal Attributes...</h4>
+                <div class="grid">
+                    <div class="box"><i class="fa fa-comments" aria-hidden="true"></i>
+                        <a>Communication</a>
+                    </div>
+                    <div class="box"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <a>Problem Solving</a>
+                    </div>
+                    <div class="box"><i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <a>Resilience</a>
+                    </div>
+                    <div class="box"><i class="fa fa-users" aria-hidden="true"></i>
+                        <a>Teamwork</a>
+                    </div>
+                    <div class="box"><i class="fa fa-user" aria-hidden="true"></i>
+                        <a>Interpersonal Skills</a>
+                    </div>
+                    <div class="box"><i class="fa fa-superpowers" aria-hidden="true"></i>
+                        <a>Critical Thinking</a>
+                    </div>
+                    <div class="box"><i class="fa fa-trophy" aria-hidden="true"></i>
+                        <a>Persistance</a>
+                    </div>
+                    <div class="box"><i class="fa fa-wpexplorer" aria-hidden="true"></i>
+                        <a>Persuasion</a>
+                    </div>
+                    <div class="box"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+                        <a>Proactive</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Article > gallery -->
+
+        <section class="gallery" id="gallery">
+            <div class="topcontent">
+                <div class="divider">__</div>
+                <h2>My Art Gallery</h2>
+                <h4>Photoshop Edits</h4>
+
+            </div>
+            <div class="grid">
+                <div class="box"><img src="/assets/images/w1.jpg" alt=""></div>
+                <div class="box"><img src="/assets/images/w2.jpg" alt=""></div>
+                <div class="box"><img src="/assets/images/w3.jpg" alt=""></div>
+            </div>
+        </section>
+
+
+        <!-- Article > gallery -->
+
+
+        <section class="gallery">
+            <div class="topcontent">
+                <div class="divider">__</div>
+                <h4>Photography</h4>
+            </div>
+            <div class="grid">
+                <div class="box"><img src="/assets/images/p1.jpg" alt=""></div>
+                <div class="box"><img src="/assets/images/p2.jpg" alt=""></div>
+                <div class="box"><img src="/assets/images/p3.jpg" alt=""></div>
+            </div>
+        </section>
+    </article>
+
+
+    <!-- Footer -->
+
+    <!-- Footer > foot -->
+
+    <footer>
+        <section class="foot" id="contactMe">
+            <div class="icons">
+                <a href="https://www.facebook.com/abhijeet.anand.71271/" target="_blank">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abhijeet-anand-666123200/" target="_blank">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/abhijeet__anand_/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Abhijeet-Anand-01" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="text">
+                <span>Want To Say Hello?</span>
+            </div>
+            <div class="mail">
+                <a class="mail" href="mailto:abhijeetad500@gmail.com">Mail Me <i class="fa fa-envelope-o"
+                        aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+
+        <!-- Footer > call  -->
+
+        <section class="call">
+            <span>
+                <div class="font">Build with: <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                </div>
+            </span>
+        </section>
+
+
+        <!-- Footer > end -->
+
+        <section class="end">
+            <div>Created by <span> Abhijeet Anand </span></div>
+        </section>
+    </footer>
+
+</body>
 </body>
 
 </html>
