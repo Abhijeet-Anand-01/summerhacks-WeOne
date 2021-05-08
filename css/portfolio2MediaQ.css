@@ -17,6 +17,7 @@
         text-align: center;
         margin: 0px;
         letter-spacing: 0.02rem;
+        padding: 10px 4px;
     }
 
     .jump {
@@ -84,16 +85,6 @@
     .hobbyNdSoftSkills .grid .box {
         padding: 0px 20px;
         height: 95px;
-    }
-
-    .gallery .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .gallery .grid .box:hover {
-        transform: scale(1.2);
     }
 
     .foot {
