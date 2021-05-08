@@ -9,15 +9,15 @@
 
 @font-face {
     font-family: f1;
-    src: url(/assets/font/LobsterTwo-Italic.ttf);
+    src: url(../assets/font/LobsterTwo-Italic.ttf);
 }
 @font-face {
     font-family: f2;
-    src: url(/assets/font/AveriaSerifLibre-Regular.ttf);
+    src: url(../assets/font/AveriaSerifLibre-Regular.ttf);
 }
 @font-face {
     font-family: f3;
-    src: url(/assets/font/Playball-Regular.ttf);
+    src: url(../assets/font/Playball-Regular.ttf);
 }
 
 * {
@@ -66,26 +66,26 @@ header {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 15px 0px 28px 0px;
 }
-nav {
+.navigator {
     max-width: 1200px;
     margin: auto;
     color: var(--gridbox);
 }
 
-nav h1 {
+.navigator h1 {
     font-size: 3rem;
     font-family: f1;
     padding-left: 10px;
     letter-spacing: 0.15rem;
 }
 
-nav ul {
+.navigator ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
 
-nav ul li a {
+.navigator ul li a {
     color: var(--gridbox);
     font-size: 1.2rem;
     font-family: f1;
@@ -95,7 +95,7 @@ nav ul li a {
     transition: all 0.3s ease-in;
 }
 
-nav ul li a:hover {
+.navigator ul li a:hover {
     cursor: pointer;
     color: var(--pink);
 }
@@ -129,7 +129,6 @@ nav ul li a:hover {
 
 
 .jump li a:hover{
-    color: white;
     cursor: pointer;
     font-size: 40px;
   
@@ -146,16 +145,18 @@ nav ul li a:hover {
     height: 40px;
     width: 40px;
 }
+
+
 /* Article > mainContainer */
 
 .mainContainer {
     background-color: black;
     width: 100%;
     padding-top: 130px;
-    background-image: url(/assets/images/bg-2.png);
+    background-image: url(../assets/images/img1.jpg);
     background-position: 49% 45%;
     background-repeat: no-repeat;
-    background-size: 1280px auto;
+    background-size: 1208px auto;
 }
 
 .mainContainer .divider {
@@ -309,6 +310,31 @@ img {
     color: var(--gridbox);
 }
 
+/* Article > gallery */
+
+.gallery h4 {
+    font-size: 2.2rem;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    margin: 60px 80px 0px 80px;
+}
+
+.gallery > :nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.gallery .grid .box {
+    transition: all 0.2s ease-in;
+}
+
+.gallery .grid .box:hover {
+    transform: scale(1.1);
+}
+
 /* Footer */
 
 /* Footer > foot */
@@ -320,7 +346,6 @@ img {
     align-items: center;
     background-color: var(--bgblack);
     padding: 120px 35px;
-    margin-top: 50px;
 }
 .foot .icons {
     width: 33.33%;
