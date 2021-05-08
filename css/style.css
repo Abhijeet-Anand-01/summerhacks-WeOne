@@ -71,7 +71,6 @@ h4 {
 
 header .head {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
@@ -81,7 +80,6 @@ header .intro {
     color: var(--pink);
     font-family: f2;
     font-size: 2rem;
-    /* margin-top: 50px; */
 }
 
 header .team {
@@ -107,13 +105,34 @@ header .teamName {
 .aboutMe .container {
     display: flex;
     position: relative;
+    
 }
+
+.divider3{
+    font-size: 4.5em;
+    color: var(--pink);
+    line-height: 0px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: -22px;
+}
+
 .aboutMe .pic {
     width: 40%;
     padding-left: 20px;
     border-left: 3px solid var(--pink);
-    
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    color: var(--gridtext);
+    margin-top: 50px;
+    box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
+}
+
 .aboutMe .ctext {
     padding-left: 60px;
     width: 60%;
@@ -126,15 +145,28 @@ header .teamName {
     line-height: 35px;
     padding: 40px 15px 0px 0px;
 }
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    color: var(--gridtext);
-    /* padding: 20px; */
-    margin-top: 50px;
-    box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
+
+.iconBox {
+    margin: 20px 0px 0px 20px;
+}
+
+.iconBox a {
+    text-decoration: none;
+}
+
+.iconBox .icons i {
+    color: black;
+    font-size: 1.2rem;
+    border: 2px solid var(--pink);
+    border-radius: 40px;
+    padding: 12px;
+    margin: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.iconBox .icons i:hover {
+    transform: translateY(-10px) scale(1.2);
+    color: var(--pink);
 }
 
 .divider2 {
@@ -145,11 +177,9 @@ img {
 
 .btn1 {
     font-family: f1;
-    /* color: white; */
     background-color: var(--bgblack);
     border: 2px solid var(--pink);
-    padding: 17px 34px;
-    /* margin: 50px 0px 0px 20px; */
+    padding: 20px 0px;
    
 }
 .btn1 a {
@@ -159,6 +189,7 @@ img {
     font-size: 1.2rem;
     letter-spacing: 01.5px;
     transition: all 0.3s ease-in;
+    padding: 20px 34px;
 }
 .btn1:hover {
     cursor: pointer;
@@ -166,45 +197,39 @@ img {
 }
 
 
-.foot {
-    /* display: flex; */
-    /* color: white; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* background-color: var(--bgblack); */
-    /* padding: 120px 35px; */
-    margin: 20px 0px 0px 20px;
-}
-/* .foot .icons {
-    width: 33.33%;
+
+/* Footer > call */
+
+.call .font {
     text-align: center;
-} */
-
-.foot a {
-    text-decoration: none;
+    padding: 40px 30px;
+    background-color: #161616;
+    color: white;
+    font-size: 1.5rem;
+    font-family: f1;
+    letter-spacing: 0.1rem;
+    margin-top: 90px;
+}
+.call .fa {
+    font-size: 3rem;
+    padding: 10px;
 }
 
-.foot .icons i {
-    color: black;
+/* Footer > end */
+
+.end {
+    background-color: black;
+    color: white;
+    font-family: f1;
+    padding: 30px;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.04rem;
+}
+
+.end span {
     font-size: 1.2rem;
-    border: 2px solid var(--pink);
-    border-radius: 40px;
-    padding: 12px;
-    margin: 3px;
-    transition: all 0.2s ease-in-out;
+    font-family: f3;
+    padding-left: 10px;
 }
 
-.foot .icons i:hover {
-    transform: translateY(-10px) scale(1.2);
-    color: var(--pink);
-}
-
-
-.divider3{
-    font-size: 4.5em;
-    color: var(--pink);
-    line-height: 0px;
-    margin-bottom: 20px;
-    position: absolute;
-    left: -22px;
-}

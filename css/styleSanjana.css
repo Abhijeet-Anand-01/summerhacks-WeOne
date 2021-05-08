@@ -100,19 +100,60 @@ nav ul li a:hover {
     color: var(--pink);
 }
 
+/* nav > jump */
+
+.jump {
+    position: fixed;
+    height: 40%;
+    min-width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jump ul{
+    background-color: var(--bgblack);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.jump ul li {
+    list-style: none;
+    padding: 10px 0px 10px 20px;
+}
+
+.jump ul li a {
+    color: var(--gridbox);
+    font-size: 30px;
+    transition: all 0.1s ease-in;
+}
+
+
+.jump li a:hover{
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+  
+}
+
+#logo{
+    box-shadow: none;
+    height: 30px;
+    width: 30px;
+}
+
+#logo:hover{
+    transition: all 0.1s ease-in-out;
+    height: 40px;
+    width: 40px;
+}
 /* Article > mainContainer */
 
 .mainContainer {
     background-color: black;
     width: 100%;
     padding-top: 130px;
-<<<<<<< HEAD
-    background-image: url(/assets/images/bg-2.jpg);
-    background-position: 49% 97%;
-=======
-    background-image: url(/assets/images/img.png);
+    background-image: url(/assets/images/bg-2.png);
     background-position: 49% 45%;
->>>>>>> aaffb1e965d613cb95593d166839e1ccb7b270d6
     background-repeat: no-repeat;
     background-size: 1280px auto;
 }
@@ -225,7 +266,6 @@ img {
     border-radius: 10px;
     color: var(--gridtext);
     box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
-    
 }
 
 /* Article > hobbyNdSoftSkills */
@@ -269,9 +309,6 @@ img {
     color: var(--gridbox);
 }
 
-
-
-
 /* Footer */
 
 /* Footer > foot */
@@ -283,7 +320,7 @@ img {
     align-items: center;
     background-color: var(--bgblack);
     padding: 120px 35px;
-    margin-top: 50px;   
+    margin-top: 50px;
 }
 .foot .icons {
     width: 33.33%;

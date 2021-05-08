@@ -127,15 +127,23 @@ header {
     transition: all 0.1s ease-in;
 }
 
-/* .jump ul li a .logo{
-    
-} */
 
 .jump li a:hover{
     cursor: pointer;
-    color: var(--pink);
-    /* font-size: 2.2rem; */
+    font-size: 40px;
   
+}
+
+#logo{
+    box-shadow: none;
+    height: 30px;
+    width: 30px;
+}
+
+#logo:hover{
+    transition: all 0.1s ease-in-out;
+    height: 40px;
+    width: 40px;
 }
 
 
