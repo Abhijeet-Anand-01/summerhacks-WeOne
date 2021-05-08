@@ -66,14 +66,13 @@ h4 {
     margin-bottom: 40px;
 }
 
-
 /* Header */
 
 header .head {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 header .intro {
@@ -96,7 +95,6 @@ header .teamName {
     margin-top: 30px;
 }
 
-
 /* Article > aboutMe */
 
 .aboutMe {
@@ -105,10 +103,9 @@ header .teamName {
 .aboutMe .container {
     display: flex;
     position: relative;
-    
 }
 
-.divider3{
+.divider3 {
     font-size: 4.5em;
     color: var(--pink);
     line-height: 0px;
@@ -130,7 +127,8 @@ img {
     border-radius: 10px;
     color: var(--gridtext);
     margin-top: 50px;
-    box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
+    /* box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6; */
+    box-shadow: -10px -10px 10px #710a58, 10px 10px 10px #b60a75;
 }
 
 .aboutMe .ctext {
@@ -172,7 +170,6 @@ img {
 .divider2 {
     font-size: 4.5em;
     color: var(--pink);
-
 }
 
 .btn1 {
@@ -180,7 +177,6 @@ img {
     background-color: var(--bgblack);
     border: 2px solid var(--pink);
     padding: 20px 0px;
-   
 }
 .btn1 a {
     text-decoration: none;
@@ -195,8 +191,6 @@ img {
     cursor: pointer;
     color: var(--pink);
 }
-
-
 
 /* Footer > call */
 
@@ -233,3 +227,9 @@ img {
     padding-left: 10px;
 }
 
+.bgimg {
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: 50% 60%;
+}
