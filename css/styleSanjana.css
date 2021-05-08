@@ -106,8 +106,13 @@ nav ul li a:hover {
     background-color: black;
     width: 100%;
     padding-top: 130px;
+<<<<<<< HEAD
     background-image: url(/assets/images/bg-2.jpg);
     background-position: 49% 97%;
+=======
+    background-image: url(/assets/images/img.png);
+    background-position: 49% 45%;
+>>>>>>> aaffb1e965d613cb95593d166839e1ccb7b270d6
     background-repeat: no-repeat;
     background-size: 1280px auto;
 }
