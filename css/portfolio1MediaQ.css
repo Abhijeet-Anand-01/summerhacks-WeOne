@@ -1,0 +1,120 @@
+@media only screen and (max-width: 850px) {
+
+    header {
+        padding: 5px 0px 5px 0px;
+    }
+
+    nav h1 {
+        font-size: 2.6rem;
+    }
+
+    nav ul {
+        padding: 0px 10px 0px 80px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        display: flex;
+        text-align: center;
+        margin: 0px;
+        letter-spacing: 0.02rem;
+    }
+
+    .mainContainer {
+        background-position: 35% 5%;
+    }
+
+    .mainContainer .divider {
+        line-height: 35px;
+    }
+
+    .mainContainer .text {
+        font-size: 3rem;
+        margin: 50px 0px 0px 15px;
+    }
+
+    .mainContainer .name {
+        line-height: 40px;
+        font-size: 2.2rem;
+        width: 50%;
+        text-align: end;
+        margin-left: 10px;
+    }
+
+    .btn1 {
+        padding: 12px 20px;
+        margin: 50px 0px 0px 25px;
+    }
+
+    .aboutMe .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMe .pic {
+        width: 88%;
+    }
+
+    .aboutMe .ctext {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    h2{
+        padding-left: 10px;
+        font-size: 2.4rem;
+    }
+    h4{
+        padding: 10px 0px 0px 20px;
+        font-size: 1.3rem;
+    }
+
+    .aboutMe .ctext p{
+        padding: 30px 15px 0px 20px;
+        font-size: 1.5rem;
+    }
+
+    .hobbyNdSoftSkills .grid .box {
+        padding: 0px 20px;
+        height: 95px;
+    }
+
+
+    .gallery .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .gallery .grid .box:hover{
+        transform: scale(1.2);
+        
+    }
+
+    .foot{
+        padding: 22px 0px;
+    }
+
+    .foot .text{
+        font-size: 1.5rem;
+        margin: 0px 24px;
+    }
+
+    .foot .mail a {
+        padding: 10px 7px;
+        margin-right: 12px;
+    }
+
+    .foot .icons i{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .call .font{
+        padding: 12px
+    }
+
+    .end{
+        padding: 15px;
+    }
+}
