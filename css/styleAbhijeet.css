@@ -66,26 +66,26 @@ header {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 15px 0px 28px 0px;
 }
-nav {
+.navigator {
     max-width: 1200px;
     margin: auto;
     color: var(--gridbox);
 }
 
-nav h1 {
+.navigator h1 {
     font-size: 3rem;
     font-family: f1;
     padding-left: 10px;
     letter-spacing: 0.15rem;
 }
 
-nav ul {
+.navigator ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
 
-nav ul li a {
+.navigator ul li a {
     color: var(--gridbox);
     font-size: 1.2rem;
     font-family: f1;
@@ -95,10 +95,49 @@ nav ul li a {
     transition: all 0.3s ease-in;
 }
 
-nav ul li a:hover {
+.navigator ul li a:hover {
     cursor: pointer;
     color: var(--pink);
 }
+
+/* nav > jump */
+
+.jump {
+    position: fixed;
+    height: 40%;
+    min-width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jump ul{
+    background-color: var(--bgblack);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.jump ul li {
+    list-style: none;
+    padding: 10px 0px 10px 20px;
+}
+
+.jump ul li a {
+    color: var(--gridbox);
+    font-size: 30px;
+    transition: all 0.1s ease-in;
+}
+
+/* .jump ul li a .logo{
+    
+} */
+
+.jump li a:hover{
+    cursor: pointer;
+    color: var(--pink);
+    /* font-size: 2.2rem; */
+  
+}
+
 
 /* Article > mainContainer */
 

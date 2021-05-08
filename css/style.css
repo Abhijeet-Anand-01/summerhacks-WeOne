@@ -6,3 +6,205 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+
+:root {
+    --pink: #e9204f;
+    --bgblack: #1b1b1b;
+    --bggrey: #f3f3f3;
+    --fontgrey: #747474;
+    --gridbox: #ebecf0;
+    --gridtext: #62687e;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(/assets/font/LobsterTwo-Italic.ttf);
+}
+@font-face {
+    font-family: f2;
+    src: url(/assets/font/AveriaSerifLibre-Regular.ttf);
+}
+@font-face {
+    font-family: f3;
+    src: url(/assets/font/Playball-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--gridbox);
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-family: f1;
+    letter-spacing: 0.1rem;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+h4 {
+    color: var(--pink);
+    font-family: f1;
+    padding: 20px 0px 0px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 0.06rem;
+}
+
+.topcontent {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topcontent .divider {
+    font-size: 4.5em;
+    color: var(--pink);
+    line-height: 0px;
+    margin-bottom: 40px;
+}
+
+
+/* Header */
+
+header .head {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+header .intro {
+    color: var(--pink);
+    font-family: f2;
+    font-size: 2rem;
+    /* margin-top: 50px; */
+}
+
+header .team {
+    color: gold;
+    font-family: f1;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+header .teamName {
+    color: var(--pink);
+    font-family: f1;
+    font-size: 5rem;
+    margin-top: 30px;
+}
+
+
+/* Article > aboutMe */
+
+.aboutMe {
+    padding-top: 100px;
+}
+.aboutMe .container {
+    display: flex;
+    position: relative;
+}
+.aboutMe .pic {
+    width: 40%;
+    padding-left: 20px;
+    border-left: 3px solid var(--pink);
+    
+}
+.aboutMe .ctext {
+    padding-left: 60px;
+    width: 60%;
+    text-align: center;
+}
+.aboutMe .ctext p {
+    font-family: f2;
+    color: var(--fontgrey);
+    font-size: 1.6rem;
+    line-height: 35px;
+    padding: 40px 15px 0px 0px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    color: var(--gridtext);
+    /* padding: 20px; */
+    margin-top: 50px;
+    box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
+}
+
+.divider2 {
+    font-size: 4.5em;
+    color: var(--pink);
+
+}
+
+.btn1 {
+    font-family: f1;
+    /* color: white; */
+    background-color: var(--bgblack);
+    border: 2px solid var(--pink);
+    padding: 17px 34px;
+    /* margin: 50px 0px 0px 20px; */
+   
+}
+.btn1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 01.5px;
+    transition: all 0.3s ease-in;
+}
+.btn1:hover {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+
+.foot {
+    /* display: flex; */
+    /* color: white; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* background-color: var(--bgblack); */
+    /* padding: 120px 35px; */
+    margin: 20px 0px 0px 20px;
+}
+/* .foot .icons {
+    width: 33.33%;
+    text-align: center;
+} */
+
+.foot a {
+    text-decoration: none;
+}
+
+.foot .icons i {
+    color: black;
+    font-size: 1.2rem;
+    border: 2px solid var(--pink);
+    border-radius: 40px;
+    padding: 12px;
+    margin: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.foot .icons i:hover {
+    transform: translateY(-10px) scale(1.2);
+    color: var(--pink);
+}
+
+
+.divider3{
+    font-size: 4.5em;
+    color: var(--pink);
+    line-height: 0px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: -22px;
+}

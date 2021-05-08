@@ -106,10 +106,10 @@ nav ul li a:hover {
     background-color: black;
     width: 100%;
     padding-top: 130px;
-    background-image: url(/assets/images/bg.png.jpeg);
-    background-position: 49% 45%;
+    background-image: url(/assets/images/bg-2.jpg);
+    background-position: 49% 97%;
     background-repeat: no-repeat;
-    background-size: 1208px auto;
+    background-size: 1280px auto;
 }
 
 .mainContainer .divider {
@@ -220,6 +220,7 @@ img {
     border-radius: 10px;
     color: var(--gridtext);
     box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6;
+    
 }
 
 /* Article > hobbyNdSoftSkills */
@@ -277,6 +278,7 @@ img {
     align-items: center;
     background-color: var(--bgblack);
     padding: 120px 35px;
+    margin-top: 50px;   
 }
 .foot .icons {
     width: 33.33%;
