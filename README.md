@@ -1,6 +1,9 @@
 # summerhacks-projectName
 Template For Summer Hacks Project Submission
 
+Hosted website link - 
+https://abhijeet-anand-01.github.io/summerhacks-WeOne/
+
 Name of the Project-
 WeOne
 
