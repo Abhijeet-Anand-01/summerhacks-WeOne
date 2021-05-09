@@ -8,12 +8,11 @@
 */
 
 :root {
-    --pink: #e9204f;
-    --bgblack: #1b1b1b;
-    --bggrey: #f3f3f3;
-    --fontgrey: #747474;
-    --gridbox: #ebecf0;
-    --gridtext: #62687e;
+    --theme5_1: #31326f;
+    --theme5_2: #ffc93c;
+    --theme5_3: #dbf6e9;
+    --theme5_4: #9ddfd3;
+
 }
 
 @font-face {
@@ -34,9 +33,6 @@
     padding: 0;
 }
 
-body {
-    background-color: var(--gridbox);
-}
 
 .bgimg {
     background-image: url(../assets/images/bg1.jpg);
@@ -54,7 +50,7 @@ h2 {
 }
 
 h4 {
-    color: var(--pink);
+    color: var(--theme5_4);
     font-family: f1;
     padding: 20px 0px 0px 20px;
     font-size: 1.5rem;
@@ -68,29 +64,36 @@ h4 {
 
 /* Header */
 
+header {
+    background-color: rgba(49, 50, 111, 0.4);
+
+}
+
 header .head {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 50px;
+    padding-bottom: 20px;
+    /* z-index: 1; */
 }
 
 header .intro {
-    color: var(--pink);
+    color: var(--theme5_4);
     font-family: f2;
     font-size: 2rem;
 }
 
 header .team {
     color: gold;
-    font-family: f1;
+    font-family: f2;
     font-size: 3.5rem;
     margin-top: 20px;
 }
 
 header .teamName {
-    color: var(--pink);
-    font-family: f3;
+    color: var(--theme5_3);
+    font-family: f2;
     font-size: 5rem;
     margin-top: 30px;
 }
@@ -112,7 +115,7 @@ header .teamName .logo{
 
 .aboutMe .container .divider3 {
     font-size: 4.5em;
-    color: var(--pink);
+    color: var(--theme5_4);
     line-height: 0px;
     margin-bottom: 20px;
     position: absolute;
@@ -121,7 +124,7 @@ header .teamName .logo{
 
 .aboutMe .container .divider {
     font-size: 4.5em;
-    color: var(--pink);
+    color: var(--theme5_4);
     line-height: 0px;
     margin-bottom: 40px;
 }
@@ -129,7 +132,7 @@ header .teamName .logo{
 .aboutMe .container .pic {
     width: 40%;
     padding-left: 20px;
-    border-left: 3px solid var(--pink);
+    border-left: 3px solid var(--theme5_4);
 }
 
 .aboutMe .container .pic img {
@@ -137,9 +140,7 @@ header .teamName .logo{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    color: var(--gridtext);
     margin-top: 50px;
-    /* box-shadow: -10px -10px 10px rgb(212, 212, 212), 10px 10px 10px #a6aab6; */
     box-shadow: -10px -10px 10px #710a58, 10px 10px 10px #b60a75;
 }
 
@@ -157,7 +158,7 @@ header .teamName .logo{
 
 .aboutMe .container .ctext p {
     font-family: f2;
-    color: var(--fontgrey);
+    color: var(--theme5_3);
     font-size: 1.6rem;
     line-height: 35px;
     padding: 40px 15px 0px 0px;
@@ -172,9 +173,9 @@ header .teamName .logo{
 }
 
 .aboutMe .container .iconBox .icons i {
-    color: black;
+    color: var(--theme5_2);
     font-size: 1.2rem;
-    border: 2px solid var(--pink);
+    border: 2px solid var(--theme5_1);
     border-radius: 40px;
     padding: 12px;
     margin: 3px;
@@ -183,23 +184,29 @@ header .teamName .logo{
 
 .aboutMe .container .iconBox .icons i:hover {
     transform: translateY(-10px) scale(1.2);
-    color: var(--pink);
+    color: var(--theme5_4);
 }
 
 .aboutMe .container .divider2 {
     font-size: 4.5em;
-    color: var(--pink);
+    color: var(--theme5_4);
 }
 
 .aboutMe .container .btn1 {
     font-family: f1;
-    background-color: var(--bgblack);
-    border: 2px solid var(--pink);
+    background-color: rgba(90, 90, 90, 0.4);
+    border: 2px solid var(--theme5_1);
     padding: 20px 0px;
+}
+
+.aboutMe .container .btn1:hover {
+    transform: translateY(-2px) scale(1.1);
+    background-color: var(--theme5_1);
+    transition: all 0.3s ease-in-out;
 }
 .aboutMe .container .btn1 a {
     text-decoration: none;
-    color: white;
+    color: var(--theme5_2);
     font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: 01.5px;
@@ -208,14 +215,14 @@ header .teamName .logo{
 }
 .aboutMe .container .btn1:hover {
     cursor: pointer;
-    color: var(--pink);
+    color: var(--theme5_4);
 }
 
 .divider4 {
     margin-top: 30px;
     text-align: center;
     font-size: 4.5rem;
-    color: var(--pink);
+    color: var(--theme5_4);
 }
 
 
@@ -224,8 +231,8 @@ header .teamName .logo{
 .call .font {
     text-align: center;
     padding: 40px 30px;
-    background-color: #161616;
-    color: white;
+    background-color: var(--theme5_1);
+    color: var(--theme5_4);
     font-size: 1.5rem;
     font-family: f1;
     letter-spacing: 0.1rem;
@@ -239,8 +246,8 @@ header .teamName .logo{
 /* Footer > end */
 
 .end {
-    background-color: black;
-    color: white;
+    background-color: #161616;
+    color: var(--theme5_4);
     font-family: f1;
     padding: 30px;
     font-size: 1rem;
@@ -249,8 +256,8 @@ header .teamName .logo{
 }
 
 .end span {
-    font-size: 1.2rem;
-    font-family: f3;
+    font-size: 1.6rem;
+    font-family: f2;
     padding-left: 10px;
 }
 
