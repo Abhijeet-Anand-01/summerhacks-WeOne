@@ -38,6 +38,13 @@ body {
     background-color: var(--gridbox);
 }
 
+.bgimg {
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: 50% 60%;
+}
+
 h2 {
     font-size: 2.8rem;
     font-family: f2;
@@ -57,13 +64,6 @@ h4 {
 .topcontent {
     max-width: 1200px;
     margin: auto;
-}
-
-.topcontent .divider {
-    font-size: 4.5em;
-    color: var(--pink);
-    line-height: 0px;
-    margin-bottom: 40px;
 }
 
 /* Header */
@@ -110,7 +110,7 @@ header .teamName .logo{
     position: relative;
 }
 
-.divider3 {
+.aboutMe .container .divider3 {
     font-size: 4.5em;
     color: var(--pink);
     line-height: 0px;
@@ -119,13 +119,20 @@ header .teamName .logo{
     left: -22px;
 }
 
-.aboutMe .pic {
+.aboutMe .container .divider {
+    font-size: 4.5em;
+    color: var(--pink);
+    line-height: 0px;
+    margin-bottom: 40px;
+}
+
+.aboutMe .container .pic {
     width: 40%;
     padding-left: 20px;
     border-left: 3px solid var(--pink);
 }
 
-.aboutMe .pic img {
+.aboutMe .container .pic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -136,19 +143,19 @@ header .teamName .logo{
     box-shadow: -10px -10px 10px #710a58, 10px 10px 10px #b60a75;
 }
 
-.aboutMe .ctext {
+.aboutMe .container .ctext {
     padding-left: 60px;
     width: 60%;
     text-align: center;
     margin: 50px 0px 0px 30px
 }
 
-.aboutMe .ctext .logoName {
+.aboutMe .container .ctext .logoName {
     height: 50px;
     width: 50px;
 }
 
-.aboutMe .ctext p {
+.aboutMe .container .ctext p {
     font-family: f2;
     color: var(--fontgrey);
     font-size: 1.6rem;
@@ -156,15 +163,15 @@ header .teamName .logo{
     padding: 40px 15px 0px 0px;
 }
 
-.iconBox {
+.aboutMe .container .iconBox {
     margin: 20px 0px 0px 20px;
 }
 
-.iconBox a {
+.aboutMe .container .iconBox a {
     text-decoration: none;
 }
 
-.iconBox .icons i {
+.aboutMe .container .iconBox .icons i {
     color: black;
     font-size: 1.2rem;
     border: 2px solid var(--pink);
@@ -174,23 +181,23 @@ header .teamName .logo{
     transition: all 0.2s ease-in-out;
 }
 
-.iconBox .icons i:hover {
+.aboutMe .container .iconBox .icons i:hover {
     transform: translateY(-10px) scale(1.2);
     color: var(--pink);
 }
 
-.divider2 {
+.aboutMe .container .divider2 {
     font-size: 4.5em;
     color: var(--pink);
 }
 
-.btn1 {
+.aboutMe .container .btn1 {
     font-family: f1;
     background-color: var(--bgblack);
     border: 2px solid var(--pink);
     padding: 20px 0px;
 }
-.btn1 a {
+.aboutMe .container .btn1 a {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -199,7 +206,7 @@ header .teamName .logo{
     transition: all 0.3s ease-in;
     padding: 20px 34px;
 }
-.btn1:hover {
+.aboutMe .container .btn1:hover {
     cursor: pointer;
     color: var(--pink);
 }
@@ -207,7 +214,7 @@ header .teamName .logo{
 .divider4 {
     margin-top: 30px;
     text-align: center;
-    font-size: 4.5em;
+    font-size: 4.5rem;
     color: var(--pink);
 }
 
@@ -247,9 +254,3 @@ header .teamName .logo{
     padding-left: 10px;
 }
 
-.bgimg {
-    background-image: url(../assets/images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px;
-    background-position: 50% 60%;
-}

@@ -1,0 +1,74 @@
+@media only screen and (max-width: 850px) {
+    .bgimg {
+        background-size: 2000px;
+        background-position: 35% 0%;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        padding: 0px;
+    }
+    .aboutMe .container .ctext .logoName {
+        height: 40px;
+        width: 40px;
+    }
+
+    header .head {
+        padding-top: 30px;
+    }
+
+    header .intro {
+        font-size: 1rem;
+    }
+
+    header .team {
+        font-size: 2rem;
+        margin-top: 5px;
+    }
+
+    header .teamName {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    header .teamName .logo {
+        height: 38px;
+        width: 38px;
+    }
+
+    .aboutMe {
+        padding-top: 20px;
+    }
+
+    .aboutMe .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMe .container .pic {
+        margin-left: 30px;
+    }
+    .aboutMe .container .pic img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .aboutMe .container .ctext {
+        padding-left: 0px;
+        width: 90%;
+        margin: 0px 0px 0px 24px;
+    }
+
+
+    .aboutMe .ctext p {
+        padding: 30px 15px 0px 20px;
+        font-size: 1.5rem;
+    }
+
+    .divider4 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+}
