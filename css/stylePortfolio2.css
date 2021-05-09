@@ -110,6 +110,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 2;
 }
 
 .jump ul {
