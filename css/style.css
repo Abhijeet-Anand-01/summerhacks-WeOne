@@ -18,15 +18,15 @@
 
 @font-face {
     font-family: f1;
-    src: url(/assets/font/LobsterTwo-Italic.ttf);
+    src: url(../assets/font/LobsterTwo-Italic.ttf);
 }
 @font-face {
     font-family: f2;
-    src: url(/assets/font/AveriaSerifLibre-Regular.ttf);
+    src: url(../assets/font/AveriaSerifLibre-Regular.ttf);
 }
 @font-face {
     font-family: f3;
-    src: url(/assets/font/Playball-Regular.ttf);
+    src: url(../assets/font/Playball-Regular.ttf);
 }
 
 * {
