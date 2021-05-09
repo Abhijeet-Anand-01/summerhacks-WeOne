@@ -40,7 +40,7 @@ body {
 
 h2 {
     font-size: 2.8rem;
-    font-family: f1;
+    font-family: f2;
     letter-spacing: 0.1rem;
     margin-top: 40px;
     padding-left: 20px;
@@ -90,9 +90,14 @@ header .team {
 
 header .teamName {
     color: var(--pink);
-    font-family: f1;
+    font-family: f3;
     font-size: 5rem;
     margin-top: 30px;
+}
+
+header .teamName .logo{
+    height: 70px;
+    width: 70px;
 }
 
 /* Article > aboutMe */
@@ -120,7 +125,7 @@ header .teamName {
     border-left: 3px solid var(--pink);
 }
 
-img {
+.aboutMe .pic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -135,7 +140,14 @@ img {
     padding-left: 60px;
     width: 60%;
     text-align: center;
+    margin: 50px 0px 0px 30px
 }
+
+.aboutMe .ctext .logoName {
+    height: 50px;
+    width: 50px;
+}
+
 .aboutMe .ctext p {
     font-family: f2;
     color: var(--fontgrey);
@@ -191,6 +203,14 @@ img {
     cursor: pointer;
     color: var(--pink);
 }
+
+.divider4 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 4.5em;
+    color: var(--pink);
+}
+
 
 /* Footer > call */
 
