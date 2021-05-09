@@ -65,6 +65,7 @@ header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 15px 0px 28px 0px;
+    z-index: 1;
 }
 .navigator {
     max-width: 1200px;

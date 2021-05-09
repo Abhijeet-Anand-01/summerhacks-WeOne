@@ -12,7 +12,6 @@
     --theme5_2: #ffc93c;
     --theme5_3: #dbf6e9;
     --theme5_4: #9ddfd3;
-
 }
 
 @font-face {
@@ -32,7 +31,6 @@
     margin: 0;
     padding: 0;
 }
-
 
 .bgimg {
     background-image: url(../assets/images/bg1.jpg);
@@ -66,7 +64,6 @@ h4 {
 
 header {
     background-color: rgba(49, 50, 111, 0.4);
-
 }
 
 header .head {
@@ -98,7 +95,7 @@ header .teamName {
     margin-top: 30px;
 }
 
-header .teamName .logo{
+header .teamName .logo {
     height: 70px;
     width: 70px;
 }
@@ -148,7 +145,7 @@ header .teamName .logo{
     padding-left: 60px;
     width: 60%;
     text-align: center;
-    margin: 50px 0px 0px 30px
+    margin: 50px 0px 0px 30px;
 }
 
 .aboutMe .container .ctext .logoName {
@@ -225,7 +222,6 @@ header .teamName .logo{
     color: var(--theme5_4);
 }
 
-
 /* Footer > call */
 
 .call .font {
@@ -260,4 +256,3 @@ header .teamName .logo{
     font-family: f2;
     padding-left: 10px;
 }
-
